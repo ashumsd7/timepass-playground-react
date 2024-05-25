@@ -28,7 +28,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         fontWeight:'bolder'
       }}
     >
-    <a href="https://www.aat.netlify.app">  Ashutosh Anand tiwari ( visit profile)</a>
+    <a href="https://aat.netlify.app">  Ashutosh Anand tiwari ( visit profile)</a>
     </nav>
     <RouterProvider router={router} />
   </div>
