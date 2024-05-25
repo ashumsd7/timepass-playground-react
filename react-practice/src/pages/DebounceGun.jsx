@@ -75,7 +75,7 @@ function DebounceGun() {
         </a>
       </div>
       <hr />
-      <audio ref={audioRef} controls autoPlay className="audio-controls">
+      <audio ref={audioRef} controls  className="audio-controls">
         <source src="/gunSound.mp3" type="audio/ogg" />
         Your browser does not support the audio tag.
       </audio>
