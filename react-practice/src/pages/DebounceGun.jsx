@@ -81,10 +81,10 @@ function DebounceGun() {
       </audio>
 
       <div className="gun-container">
-        Normal Gun ( fires on each click) <Gun onClick={onNormalType} isFired={isNormalGunFIres} />
+        Normal Gun ( fires on each click) <Gun onClick={onNormalType}  isFired={isNormalGunFIres} />
         Debounce Gun{" "} ( fires if delay b/w two clicks is 1 sec)
         <Gun onClick={debounceClick} isFired={isDebounceGunFired} />
-        Throttle Gun{" "} ( fires after some milisec if you keep clicking)
+        Throttle Gun{" "} ( fires after some mili sec if you keep clicking)
         <Gun onClick={throttleClick} isFired={isThrottledGunFired} />
       </div>
     </>
