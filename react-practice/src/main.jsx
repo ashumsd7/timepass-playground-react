@@ -5,6 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DebounceGun from "./pages/DebounceGun.jsx";
 import HomePage from "./pages/HomePage.jsx";
+import TestPage from "./components/TestPage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
     element: <DebounceGun />,
   },
 ]);
-
+console.log(<DebounceGun />);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <div className="root-page">
     <nav
@@ -30,6 +31,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     >
     <a href="https://aat.netlify.app">  Ashutosh Anand tiwari ( visit profile)</a>
     </nav>
-    <RouterProvider router={router} />
+    <TestPage/>
+    
+    {/* <RouterProvider router={router} /> */}
   </div>
 );
